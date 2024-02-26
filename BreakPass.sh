@@ -1,6 +1,19 @@
 #!/bin/bash
 
-echo "Script de Ataque de Fuerza Bruta con Hydra"
+# Función para mostrar el banner
+mostrar_banner() {
+    echo -e "\e[1;33m"
+    echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    echo "+          Ataque de Fuerza Bruta con Hydra            +"
+    echo "+ ---------------------------------------------------- +"
+    echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    echo -e "\e[0m"
+}
+
+# Inicio del script
+mostrar_banner
+
+echo ""
 echo "-------------------------------------------"
 
 read -p "Ingresa la dirección IP del objetivo: " target_ip
