@@ -13,9 +13,6 @@ mostrar_banner() {
 # Inicio del script
 mostrar_banner
 
-echo ""
-echo "-------------------------------------------"
-
 read -p "Ingresa la dirección IP del objetivo: " target_ip
 read -p "Ingresa el puerto del servicio (ej. 22 para SSH): " target_port
 read -p "Ingresa el nombre de usuario objetivo: " username
